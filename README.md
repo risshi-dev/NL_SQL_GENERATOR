@@ -5,13 +5,8 @@ SQL_NLP is a project that leverages Natural Language Processing (NLP) to interac
 ## Requirements
 
 - Python 3.8+
-- pip
-- SQLite (or your preferred SQL database)
-- Required Python packages:
-    - `sqlalchemy`
-    - `transformers`
-    - `torch`
-    - `pandas`
+- Access to the database
+- Gemini API Keys
 
 ## Setup
 
@@ -38,3 +33,4 @@ SQL_NLP is a project that leverages Natural Language Processing (NLP) to interac
 2. **Input:** We first pass your query to our RAG pipeline to fetch table schemas which matches your query, and then create a prompt with table schema context and your input.
 3. **Execution:** The generated SQL query is executed against the connected database.
 4. **Output:** Results are displayed in a readable format.
+
